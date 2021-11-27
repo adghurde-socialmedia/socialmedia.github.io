@@ -16,14 +16,14 @@
     --bg-color: #000;   
 }
 body{
-    background: var(--body-color);
+    background: #efefef;
     transition: background 0.3s;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--nav-color);
+    background: #1876f2;
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -42,7 +42,7 @@ nav{
     display: inline-block;
 }
 .nav-left ul li img{
-    width: 38px;
+    width: 28px;
     margin: 0 15px;
 }
 .nav-user-icon img{
